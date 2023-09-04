@@ -13,7 +13,9 @@ import java.util.UUID;
 @org.springframework.stereotype.Service
 public class Service {
 //    @Autowired
-    Repository repository;
+    Repository repository = new Repository();
+
+
     public String addHotel(Hotel hotel) {
 
         //null

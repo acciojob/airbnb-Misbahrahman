@@ -19,7 +19,10 @@ import java.util.Objects;
 public class HotelManagementController {
 
 //    @Autowired
-    Service service;
+    Service service = new Service();
+
+
+
     @PostMapping("/add-hotel")
     public String addHotel(@RequestBody Hotel hotel){
 

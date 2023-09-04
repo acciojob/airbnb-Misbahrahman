@@ -21,7 +21,7 @@ public class Repository {
     HashMap<Integer , Integer> bookingMap;
 
 
-    Repository(){
+    public Repository(){
         hotelMap = new HashMap<>();
         userMap = new HashMap<>();
         hotelList = new ArrayList<>();
