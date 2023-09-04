@@ -12,7 +12,7 @@ import java.util.UUID;
 
 @org.springframework.stereotype.Service
 public class Service {
-    @Autowired
+//    @Autowired
     Repository repository;
     public String addHotel(Hotel hotel) {
 
